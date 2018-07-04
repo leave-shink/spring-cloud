@@ -1,0 +1,13 @@
+#服务端口：9764
+server:
+  port: 8764
+#服务注册中心地址：http://localhost:8761/ecureka/
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8761/eureka/
+#程序名：service-ribbon
+spring:
+  application:
+    name: service-ribbon
+
