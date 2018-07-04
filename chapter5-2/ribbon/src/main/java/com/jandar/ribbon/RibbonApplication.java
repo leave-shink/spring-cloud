@@ -16,7 +16,7 @@ public class RibbonApplication {
     }
 
     /**
-     * @Bean是吧RestTemplate注入到ioc容器中
+     * @Bean是把RestTemplate注入到ioc容器中
      * @LocalBalanced是开启RestTemplaate的负载均衡
      * @return
      */

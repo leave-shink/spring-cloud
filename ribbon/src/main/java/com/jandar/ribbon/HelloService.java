@@ -15,8 +15,4 @@ public class HelloService {
         return restTemplate.getForObject("http://ABC/hi?name=" + name, String.class);
     }
 
-    @GetMapping("/testRest")
-    public String testRest(){
-        return restTemplate.getForObject("http://www.baidu.com",String.class);
-    }
 }
