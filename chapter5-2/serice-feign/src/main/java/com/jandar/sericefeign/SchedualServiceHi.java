@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 调用指定服务
  */
-@FeignClient(value = "abc")
+@FeignClient(value = "abc",fallback = SchedualServiceHiHystric.class )
 public interface SchedualServiceHi {
 
         @RequestMapping(value = "/hi",method = RequestMethod.GET)
