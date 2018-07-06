@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chapter5-2" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="ribbon" />
@@ -16,6 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter5-2" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="ribbon" target="1.8" />
